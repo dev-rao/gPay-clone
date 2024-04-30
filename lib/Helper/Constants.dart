@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 var unique = Color(0x7973BEE3);
 var darkgreen = Color(0xFF074D07);
-var darkblue = Color(0xFF10277E);
+var darkblue = Color(0xFF385BCE);
 var red = Colors.red;
 var indigo = Colors.indigo;
 var green = Colors.green;
@@ -39,6 +39,25 @@ var textStyle3 = TextStyle(
 
 
 );
+var textStyle4 = TextStyle(
+    color: black,
+    fontSize: 20,
+    fontWeight: FontWeight.bold
+
+
+);
+var textStyle5 = TextStyle(
+  color: black,
+  fontSize: 16,
+  fontWeight: FontWeight.bold
+);
+
+var textStyle6 = TextStyle(
+    color: black,
+    fontSize: 18,
+    fontWeight: FontWeight.bold
+);
+
 var decor=BoxDecoration(
 color: Colors.red,
 border: Border.all(color: Colors.black,width: 2),);

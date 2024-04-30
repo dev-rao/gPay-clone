@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import 'HomePage.dart';
 
 class SplashScreen1 extends StatefulWidget {
@@ -15,7 +14,7 @@ class SplashScreen1 extends StatefulWidget {
 class _SplashScreen1State extends State<SplashScreen1> {
   @override
   void initState() {
-    print("hjgkjhgjhg,jhg");
+    print("Rao saab");
 
     Timer(Duration(seconds: 3), (){
       Navigator.pushReplacement(context,
